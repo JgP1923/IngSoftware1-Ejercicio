@@ -1,5 +1,5 @@
 package com.smartdrive;
 
-public interface  Conducible {
+public interface Conducible {
     void Conducir();
 }
