@@ -12,18 +12,18 @@ public class Hibrido extends Vehiculo implements Autonomo {
 
     //metodo propio de los hibridos
     public void cambiarModo() {
-        System.out.println(marca + " " + modelo + " cambió de modo de funcionamiento.");
+        System.out.println("El vehiculo hibrido " + marca + " " + modelo + " cambió de modo de funcionamiento.");
     }
 
     //metodos que se traen de vehiculos 
     @Override
     public void Conducir() {
-        System.out.println("El vehiculo " + marca + " " + modelo + " está siendo conducido manualmente.");
+        System.out.println("El vehiculo hibrido " + marca + " " + modelo + " está siendo conducido manualmente.");
     }
 
     @Override
     public void ActivarPilotoAutomatico() {
-        System.out.println("El vehiculo " + marca + " " + modelo + " activó el piloto automático.");
+        System.out.println("El vehiculo hibrido " + marca + " " + modelo + " activó el piloto automático.");
     }
 }
 
