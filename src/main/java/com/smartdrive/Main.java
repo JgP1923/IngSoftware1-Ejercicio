@@ -23,7 +23,6 @@ public class Main {
             v.Acelerar();
             v.Frenar();
 
-            //Muestra los metodos de la clase vehiculo
             //si el vehiculo es electrico muestra sus metodos propios
             if (v instanceof Electrico) {
                 Electrico e = (Electrico) v;
